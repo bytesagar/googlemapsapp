@@ -221,12 +221,12 @@ function createMarker(latLng,name,address,openTime,phoneNumber,index){
         position: latLng,
         map: map,
         label: index.toString(),
-        icon: '/icons8-marker-48.png',
+        icon: './icons8-marker-48.png',
     });
     
 
     google.maps.event.addListener(myMarker, 'click', function(e) {
-        infoWindow.setContent(html);``
+        infoWindow.setContent(html);
         infoWindow.open(map, myMarker);
       });
     markers.push(myMarker);
