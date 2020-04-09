@@ -221,7 +221,7 @@ function createMarker(latLng,name,address,openTime,phoneNumber,index){
         position: latLng,
         map: map,
         label: index.toString(),
-        icon: './icons8-marker-48.png',
+        icon: './marker1.png',
     });
     
 
